@@ -886,8 +886,6 @@ form a:hover
 #bullespopulaires
 {
   flex-direction: column;
-  padding-left: 4%;
-  padding-right: 4%;
 }
 
 
@@ -936,6 +934,7 @@ form a:hover
 #activites h2
 {
   color: black;
+  padding-left: 0.5%;
 }
 
 /* Bulles activités*/
@@ -1371,6 +1370,10 @@ form
   font-size: 1.5em;
 }
 
+.information
+{
+  padding-top: 60px;
+}
 
 /*Hébergement Populaire*/
 
@@ -1562,9 +1565,10 @@ form
   height: 420px;
 }
 
-.bulle2, .bulle4
+
+.bulle3
 {
-  margin-bottom: 65px;
+  margin-bottom: 0;
 }
 
 .bulle3 p, .bulle1 p
@@ -1576,17 +1580,12 @@ form
 }
 
 
+/*Footer*/
 
-
-
-
-
-
-
-
-footer 
+footer nav
 {
-  display: none;
+  flex-direction: column;
+  font-size: 1.5em;
 }
 
 
@@ -1600,13 +1599,15 @@ footer
 
 {
 
+
+
 /*Header*/
 
 
 header img
   {
-    padding-left: 40%;
     padding-right: 35%;
+    margin-top: 60px;
     width: 25%;
   }
 
@@ -1621,89 +1622,48 @@ header img
   padding-right: 10.5%;
 }
 
-#recherche h1
+.menu:nth-child(1)
 {
-  font-size: 2.5em;
+  padding-left: 7.5%;
 }
 
 
-#recherche h2
+/*Recherche*/
+
+form 
 {
-  margin-top: 39px;
-  font-size: 1.6em;
-  margin-bottom: 80px;
+  font-size: 1.1em;
 }
 
-#search 
+#search
 {
-  padding-top: 30px;
-  padding-bottom: 25px;
-  font-size: 2.2em;
-
+  height: 101px;
 }
-
 
 #icone
 {
   padding-top: 30px;
-  padding-bottom: 25px;
-  font-size: 2.2em;
-
-
 }
-
-form 
-{
-  border: 1px solid #F2F2F2;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 35px;
-}
-
 
 .rechercher_tablette
 {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 4.5%;
-  padding-right: 4.5%;
-  transform: scale(1.03);
-  font-size: 2.3em;
-  
+  padding-top: 30px;
 }
+
 
 /*Filtres*/
 
-.filtrer
-{
-  margin-top: 75px;
-  font-size: 2em;
-}
 
 .filtres
 {
-  display: none;
+  font-size: 1.1em;
 }
-
-.filtres_tablette
-{
-  display: inherit;
-}
-.liste
-{
-  margin-left: 2%;
-}
-
 
 .liste
 {
-  padding-top: 22px;
-  padding-bottom: 29.5px;
-  font-size: 1.6em;
-}
-
-.liste i 
-{
-  transform: scale(1.06);
+  padding-top: 18px;
+  padding-bottom: 26px;
+  padding-right: 20px;
 }
 
 
@@ -1712,7 +1672,12 @@ form
 
 .infotexte
 {
-  font-size: 1.7em;
+  font-size: 1.1em;
+}
+
+.information
+{
+  padding-top: 60px;
 }
 
 
