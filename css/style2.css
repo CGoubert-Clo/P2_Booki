@@ -362,10 +362,9 @@
 
 
 /*Specificités*/
-@font-face {
-  font-family: 'Montserrat';
-  src: url(assets/font/Montserrat-Italic-VariableFont_wght.ttf);
-  src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+@font-face 
+{
+  font-family: 'Montserrat', sans-serif;
 }
 
 i
@@ -387,7 +386,7 @@ p, h1, h2, h3, h4, ul, input, label, a, span
 h1
 {
   font-size: 1.3em;
-  font-weight: bold;
+  font-weight: bolder;
   color: black;
 }
 
@@ -426,6 +425,7 @@ h2
     padding-right: 25px;
     display: block;
     width: 50%;
+    border-top: 2px solid white;
 }
 
 .menu:hover 
@@ -475,7 +475,7 @@ form
 {
   border: none;
   text-align: left;
-  font-weight: bold;
+  font-weight: bolder;
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: solid rgb(232, 232, 232) 1px;
@@ -500,7 +500,7 @@ form
   color: white;
   text-align: center;
   vertical-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -521,7 +521,7 @@ form a
   color: white;
   text-decoration: none;
   padding-top: 15px;
-  font-weight: bold;
+  font-weight: bolder;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -542,7 +542,7 @@ form a:hover
 {
   margin-top: 35px;
   font-family: 'Montserrat';
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .filtrer
@@ -1207,13 +1207,13 @@ header img
 
 .menu:nth-child(1)
 {
-  padding-left: 15%;
+  padding-left: 10%;
 }
 
 .menu:nth-child(2)
 {
-  text-align: end;
-  padding-right: 15%;
+  text-align: center;
+  padding-left: 0;
 }
 
 .menu:hover
@@ -1252,6 +1252,7 @@ h1
 form 
 {
   margin-top: 50px;
+  border: px solid #F2F2F2;
 }
 
 /*Bouton géoloc*/
@@ -1282,6 +1283,8 @@ form
 .rechercher_tablette
 {
   display: block;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .rechercher_tablette i 
@@ -1606,20 +1609,23 @@ footer nav
 
 header img
   {
-    padding-right: 35%;
+
     margin-top: 60px;
-    width: 25%;
+    margin-left: 35%;
+    width: 45%;
   }
 
 .nav
 {
   margin-top: 60px;
+  font-size: 1.3em;
 }
 
 .menu
 {
-  padding-left: 10.5%;
-  padding-right: 10.5%;
+  padding-left: 4.5%;
+  padding-right: 5.5%;
+  padding-top: 0;
 }
 
 .menu:nth-child(1)
@@ -1630,24 +1636,37 @@ header img
 
 /*Recherche*/
 
-form 
+/*Titre*/
+
+#recherche h1
 {
-  font-size: 1.1em;
+  font-size: 1.3em;
+}
+
+#recherche h2
+{
+  font-size: 1em;
 }
 
 #search
 {
-  height: 101px;
+  font-size: 1em;
+  width: 220px;
 }
 
 #icone
 {
-  padding-top: 30px;
+  padding-top: 15px;
+  font-size: 1.5em;
 }
 
 .rechercher_tablette
 {
-  padding-top: 30px;
+  padding-top: 15px;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 
@@ -1656,13 +1675,15 @@ form
 
 .filtres
 {
-  font-size: 1.1em;
+  font-size: 0.7em;
+  width: 90%;
+  height: 300px;
 }
 
 .liste
 {
-  padding-top: 18px;
-  padding-bottom: 26px;
+  padding-top: 11px;
+  padding-bottom: 14px;
   padding-right: 20px;
 }
 
@@ -1670,14 +1691,20 @@ form
 /*Information*/
 
 
+
 .infotexte
 {
-  font-size: 1.1em;
+  font-size: 0.7em;
 }
 
 .information
 {
   padding-top: 60px;
+}
+
+.info .infobulle
+{
+  font-size: 0.7em;
 }
 
 
@@ -1693,12 +1720,12 @@ form
 
 #populaires
 {
-  padding-right: 20px;
+
 }
 #titrepopulaire
 {
   margin-bottom: 53px;
-  font-size: 2.15em;
+  font-size: 0.8em;
 }
 
 .bullepopulaire
@@ -1706,28 +1733,37 @@ form
   padding-right: 1%;
 }
 
+.populairetexte
+{
+  height: 135px;
+}
+
 .bullepopulaire h2
 {
-  font-size: 1.7em;
+  font-size: 0.55em;
   margin-bottom: 3%;
 }
 
 .bullepopulaire p 
 {
-  font-size: 1.5em;
-  margin-bottom: 30%;
+  font-size: 0.5em;
+  margin-bottom: 0%;
 }
 
 .bullepopulaire i 
 {
-  font-size: 1.3em;
+  font-size: 0.5em;
 }
 
+.popuicone
+{
+  margin-top: 35%;
+}
 
 .bullepopu
 {
-  height: 273px;
-  width: 40%;
+  height: 135px;
+  width: 50%;
 }
 
 .bullepopu3
@@ -1741,13 +1777,22 @@ form
 
 #hebergements
 {
-
   width: 96%;
+}
+
+#hebergementbulle
+{
+  padding-right: 0;
+}
+
+#hebergements a 
+{
+  height: 245px;
 }
 
 #hebergements h2
 {
-  font-size: 2.3em;
+  font-size: 23.232px;
 }
 
 
@@ -1758,57 +1803,76 @@ form
 
 .hebergecrop
 {
-  height: 233px;
+  height: 140px;
 }
 
 .textebulle
 {
   padding-top: 0;
   padding-bottom: 0;
-  margin-top: 30px;
+  padding-left: 3%;
+  margin-top: 0;
   margin-bottom: 0px;
-  font-size: 2em;
+  font-size: 29.04px;
 }
 
 .hebergeicone
 {
-  font-size: 0.8em;
+  font-size: 0.5115em;
   
 }
 
 .bulletest img
 {
-    width: 96%;
+    width: 98%;
 }
 
-
-#hebergements .textebulle p, #hebergements .textebulle h2
+#hebergements .textebulle h2
 {
-    font-size: 0.8em;
+  font-size: 13.068px;
 }
 
+#hebergements .textebulle p
+{
+  font-size: 11.88px;
+}
 
 #afficher 
 {
-  font-size: 1.9em;
-  margin-left: 2%;
+  font-size: 0.75em;
+  margin-left: 5%;
+  padding-left: 0;
 }
 
+#hebergements a
+{
+  padding-left: 0;
+} 
 /*Activités*/
+
+#activites
+{
+  margin-top: 1250px;
+}
 
 #activites h2
 {
   margin-top: 113px;
-  font-size: 2.3em;
+  font-size: 23.232px;
 }
 
+#activitebulle 
+{
+  height: 1355px;
+}
 
 #activitebulle p 
 {
-  font-size: 1.7em;
-  padding-bottom: 25px;
-  padding-top: 20px;
+  font-size: 13.068px;
+  padding-bottom: 15px;
+  padding-top: 15px;
   padding-right: 2%;
+  margin-left: 0;
 }
 
 .bulle1, .blocbulle2, .blocbulle4
@@ -1816,20 +1880,41 @@ form
   margin-bottom: 50px;
 }
 
+.bulle1
+{
+  height: 190px;
+}
+
 .bulle2, .bulle4
 {
   margin-bottom: 50px;
+  height: 190px;
+}
+
+.bulle3, .bulle5
+{
+  height: 190px;
 }
 
 .croppimg, .croppimg2, .croppimg3, .croppimg4, .croppimg5
 {
-  height: 276px;
+  height: 130px;
 }
 
 /*footer*/
 
 footer 
 {
-  font-size: 1.8em;
+  font-size: 0.6em;
+}
+
+footer nav 
+{
+  margin-left: 0;
+}
+
+footer ul 
+{
+  padding-left: 5%;
 }
 }
