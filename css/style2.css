@@ -620,6 +620,10 @@ form a:hover
 
 /*Information*/
 
+
+.info 
+{display: flex;}
+
 .info i
 {
   font-size: 1em;
@@ -1340,20 +1344,20 @@ form
 {
   color: #DEEBFF;
   font-size: 1em;
-  width: 2.62em;
+  width: 2.22em;
   text-align: center;
-  line-height: 2.62em;
+  line-height: 2.22em;
   background-color: #DEEBFF;
   color: #0065FC;
-  border-radius: 2.62em; 
+  border-radius: 2.22em; 
 }
 
 .liste 
 {
   padding-left: 0px;
   padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 17px;
   text-decoration: none;
   color: black;
   font-family: 'Montserrat';
@@ -1378,6 +1382,10 @@ form
   padding-top: 60px;
 }
 
+.info i 
+{
+  height: 1.6em;
+}
 /*Hébergement Populaire*/
 
 #hebergementpopulaire
@@ -1434,7 +1442,7 @@ form
 
 .poputitre
 {
-  padding-right: 20%;
+  padding-right: 40%;
 }
 
 .poputitre2
@@ -1636,7 +1644,6 @@ header img
 
 /*Recherche*/
 
-/*Titre*/
 
 #recherche h1
 {
@@ -1647,6 +1654,8 @@ header img
 {
   font-size: 1em;
 }
+
+
 
 #search
 {
@@ -1717,15 +1726,20 @@ header img
 
 /*Populaires*/
 
-
-#populaires
-{
-
-}
 #titrepopulaire
 {
   margin-bottom: 53px;
   font-size: 0.8em;
+}
+
+.poputitre
+{
+  padding-right: 30%;
+}
+
+.poputitre2
+{
+  padding-right: 0;
 }
 
 .bullepopulaire
@@ -1736,12 +1750,15 @@ header img
 .populairetexte
 {
   height: 135px;
+  padding-left: 1%;
+  position: relative;
 }
 
 .bullepopulaire h2
 {
   font-size: 0.55em;
   margin-bottom: 3%;
+
 }
 
 .bullepopulaire p 
@@ -1757,13 +1774,15 @@ header img
 
 .popuicone
 {
-  margin-top: 35%;
+  margin-top: 0;
+  position: absolute;
+  bottom: 0px;
 }
 
 .bullepopu
 {
   height: 135px;
-  width: 50%;
+  width: 40%;
 }
 
 .bullepopu3
@@ -1785,9 +1804,14 @@ header img
   padding-right: 0;
 }
 
+#hebergementbulle>*
+{
+  border-radius: 15px;
+}
+
 #hebergements a 
 {
-  height: 245px;
+  height: 215px;
 }
 
 #hebergements h2
@@ -1799,18 +1823,19 @@ header img
 .bulletest
 {
   height: auto;
+  border-radius: 45px;
 }
 
 .hebergecrop
 {
-  height: 140px;
+  height: 120px;
 }
 
 .textebulle
 {
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 3%;
+  padding-left: 2%;
   margin-top: 0;
   margin-bottom: 0px;
   font-size: 29.04px;
@@ -1819,7 +1844,6 @@ header img
 .hebergeicone
 {
   font-size: 0.5115em;
-  
 }
 
 .bulletest img
