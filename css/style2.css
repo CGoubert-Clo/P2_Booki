@@ -385,7 +385,7 @@ p, h1, h2, h3, h4, ul, input, label, a, span
 
 h1
 {
-  font-size: 1.3em;
+  font-size: 22.88px;
   font-weight: bolder;
   color: black;
 }
@@ -409,7 +409,7 @@ h2
 .nav
 {
     position: absolute;
-    right: 105px;
+    right: 104px;
     top: 0;
     margin-top: 0%;
     display: flex;
@@ -417,12 +417,12 @@ h2
 
 .menu
 {
-    margin-left: 25px;
+    margin-left: 24px;
     padding-top: 42px;
     color: black;
     text-decoration: none;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 24px;
+    padding-right: 24px;
     display: block;
     width: 50%;
     border-top: 2px solid white;
@@ -438,7 +438,7 @@ h2
 header img
 {
     position: absolute;
-    top: 45px;
+    top: 44px;
     width: 8%;
 }
 
@@ -455,7 +455,7 @@ header img
 
 #recherche h2
 {
-  font-size: 0.9em;
+  font-size: 15.84px;
   color: black;
   font-weight: normal;
   margin-top: 0px;
@@ -476,12 +476,12 @@ form
   border: none;
   text-align: left;
   font-weight: bolder;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-top: solid rgb(232, 232, 232) 1px;
   border-bottom: solid rgb(232, 232, 232) 1px;
   color: black;
-  padding-left: 15px;
+  padding-left: 16px;
   width: 20%;
   
 }
@@ -490,7 +490,7 @@ form
 ::placeholder
 {
   color: black;
-  font-size: 0.9em;
+  font-size: 17.6px;
 }
 
 #icone
@@ -511,6 +511,7 @@ form
 
 }
 
+
 form a
 {
   font-size: 1em;
@@ -520,7 +521,7 @@ form a
   border: 1px solid #0065FC;
   color: white;
   text-decoration: none;
-  padding-top: 15px;
+  padding-top: 16px;
   font-weight: bolder;
   padding-left: 20px;
   padding-right: 20px;
@@ -540,7 +541,7 @@ form a:hover
 
 #filtres
 {
-  margin-top: 35px;
+  margin-top: 36px;
   font-family: 'Montserrat';
   font-weight: bolder;
 }
@@ -548,7 +549,7 @@ form a:hover
 .filtrer
 {
   color: black;
-  padding-top: 15px;
+  padding-top: 16px;
 }
 
 .filtres i
@@ -568,10 +569,10 @@ form a:hover
   border-top: 2px solid #dbd2d2;
   border-bottom: 2px solid #dbd2d2;
   border-right: 2px solid #dbd2d2;
-  border-top-left-radius: 45px;
-  border-bottom-left-radius: 45px;
-  border-top-right-radius: 45px;
-  border-bottom-right-radius: 45px;
+  border-top-left-radius: 44px;
+  border-bottom-left-radius: 44px;
+  border-top-right-radius: 44px;
+  border-bottom-right-radius: 44px;
   padding-left: 0px;
   padding-right: 10px;
   padding-top: 15px;
@@ -584,7 +585,7 @@ form a:hover
 .liste i
 {
   transform: scale(1.1);
-  margin-right: 15px;
+  margin-right: 16px;
 }
 
 
@@ -609,13 +610,28 @@ form a:hover
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 140px;
+
   justify-content: space-between;
 }
 
 .filtres_tablette
 {
   display: none;
+}
+
+.filters
+{
+  margin-top: 25px;
+}
+
+.filters:nth-child(5)
+{
+  margin-bottom: 50px;
+}
+
+.filters:nth-child(1)
+{
+  margin-right: 25px;
 }
 
 /*Information*/
@@ -646,6 +662,7 @@ form a:hover
 {
   color: black;
   padding-left: 10px;
+  padding-top: 5px;
 }
 
 
@@ -669,9 +686,9 @@ form a:hover
 {
     width: 60%;
     background-color: #F2F2F2;
-    border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     height: 625px;
 
 }
@@ -681,16 +698,16 @@ form a:hover
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding-left: 25px;
+    padding-left: 26px;
     height: 198px;
 }
 
 #hebergements h2
 {
     color: black;    
-    font-size: 1.1em;
-    padding-left: 4%;
-    margin-bottom: 25px;
+    font-size: 19.36px;
+    padding-left: 15px;
+    margin-bottom: 26px;
     margin-top: 40px;
     margin-left: 0;
 }
@@ -702,13 +719,13 @@ form a:hover
     flex-wrap: wrap;
     justify-content: space-around;
     height: 430px;
-    margin-bottom: 35px;
+    margin-bottom: 36px;
 }
 
 #hebergementbulle>*
 {
     flex-basis: 30%;
-    border-radius: 15px;
+    border-radius: 16px;
     background-color: white;
     margin-bottom: 30px;
 }
@@ -728,8 +745,8 @@ form a:hover
   object-fit: cover;
   height: 117px;
   width: 96%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
   padding-top: 5px;
   padding-right: 4px;
   padding-left: 5px;
@@ -738,29 +755,33 @@ form a:hover
 .bulletest
 {
   box-shadow: 3px 3px 10px #d9d9d9;
-  border-radius: 15px;
+  border-radius: 16px;
   height: 205px;
 }
 
 .textebulle
 {
-    padding: 5px;
-    padding-top: 5px;
+    padding: 6px;
+    padding-top: 0;
+    position: relative;
+    font-size: 0.85em;
+    height: 66.5px;
 }
 
 #hebergements .textebulle p, #hebergements .textebulle h2
 {
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
     padding-left: 4%;
     color: black;
-    font-size: 0.8em;
 }
 
 .hebergeicone
 {
   padding-left: 4%;
+  position: absolute;
+  bottom: 1%;
 }
 
 .gris 
@@ -779,7 +800,17 @@ form a:hover
 
 #hebergements .textebulle h2
 {
-    font-size: 0.9em;
+    font-size: 13.464px;
+}
+
+#hebergements .textebulle p
+{
+    font-size: 11.968px;
+}
+
+#hebergements #afficher 
+{
+  padding-left: 15px;
 }
 
 #afficher:hover
@@ -797,10 +828,10 @@ form a:hover
     width: 30%;
     height: 625px;
     background-color: #F2F2F2;
-    padding-left: 2%;
-    padding-right: 25px;
-    border-radius: 25px;
+    border-radius: 26px;
     margin-left: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
@@ -809,14 +840,16 @@ form a:hover
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
     margin-top: 40px;
+    margin-left: 1%;
+    margin-right: 4%;
 }
 
 #titrepopulaire h2
 {
     color: black;
-    font-size: 1.1em;
+    font-size: 19.36px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -826,29 +859,43 @@ form a:hover
     font-size: 1.2em;
 }
 
+#bullespopulaires
+{
+  flex-direction: column;
+}
+
+
 .bullepopu
 {
   object-fit: cover;
   border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 135px;
-    width: 135px;
+    width: 37%;
+    height: 145px;
 }
 
 .populairetexte
 {
-    padding-left: 4%;
-    height: 100%;
+    position: relative;
+    padding-left: 2%;
+    height: 145px;
+    width: 60%;
 
 }
 
-.populairetexte p, .populairetexte h2
+.populairetexte p
 {
     color: black;
     margin: 5px;
-    font-size: 1em;
+    font-size: 11.968px;
 }
 
+.populairetexte h2
+{
+    color: black;
+    margin: 5px;
+    font-size: 13.464px;
+}
 
 .populairetexte i
 {
@@ -869,44 +916,6 @@ form a:hover
   height: 23.2%;
 }
 
-
-/*Poputest*/
-
-#populaires
-{
-  width: 30%;
-  padding-left: 3%;
-  padding-right: 3%;
-  height: 625px;
-}
-
-#titrepopulaire
-{
-  margin-left: 4%;
-  margin-right: 4%;
-
-}
-
-#bullespopulaires
-{
-  flex-direction: column;
-}
-
-
-.bullepopu
-{
-  width: 37%;
-  height: 145px;
-}
-
-
-.populairetexte
-{
-  padding-left: 2%;
-  height: 145px;
-  width: 60%;
-}
-
 .poputitre
 {
   padding-right: 20%;
@@ -921,8 +930,10 @@ form a:hover
 {
   margin-left: 5px;
   margin-top: 18%;
+  position: absolute;
+  font-size: 0.85em;
+  bottom: 2%;
 }
-
 
 
 /* Activités*/
@@ -956,7 +967,7 @@ form a:hover
 
 .bulle1
 {
-  width: 25%;
+  width: 24%;
   height: 450px;
   border-radius: 25px;
   box-shadow: 2px 2px 5px rgb(128, 128, 128, 0.4);
@@ -979,7 +990,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 14.08px;
 }
 
 
@@ -989,7 +1000,7 @@ border-top-right-radius: 25px;
 .blocbulle2
 {
   height: 450px;
-  width: 25%;
+  width: 24%;
   padding-left: 42px;
   margin-right: 42px;
 }
@@ -1017,7 +1028,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 14.08px;
 }
 
 
@@ -1047,7 +1058,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 14.08px;
 }
 
 /*Bulle4*/
@@ -1055,7 +1066,7 @@ border-top-right-radius: 25px;
 .blocbulle4
 {
   height: 450px;
-  width: 25%;
+  width: 24%;
   padding-left: 42px;
 }
 
@@ -1082,7 +1093,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 14.08px;
 }
 
 
@@ -1112,7 +1123,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 14.08px;
 }
 
 
@@ -1144,7 +1155,7 @@ footer li
 
 footer li strong
 {
-  font-size: 1.05em;
+  font-size: 16.8px;
   margin-bottom: 25px;
 }
 
@@ -1193,7 +1204,7 @@ header img
 
 .nav
 {
-  font-size: 2em;
+  font-size: 26.4px;
 }
 
 .nav>*
@@ -1240,13 +1251,13 @@ header img
 
 h1
 {
-  font-size: 2em;
   margin-right: 8%;
+  font-size: 26.4px;
 }
 
 #recherche h2
 {
-  font-size: 1.6em;
+  font-size: 24.4px;
 }
 
 
@@ -1256,7 +1267,6 @@ h1
 form 
 {
   margin-top: 50px;
-  border: px solid #F2F2F2;
 }
 
 /*Bouton géoloc*/
@@ -1271,10 +1281,16 @@ form
 
 #search
 {
-  font-size: 2em;
-  width: 550px;
+  font-size: 28.16px;
+  width: 95%;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
 }
 
+::placeholder
+{
+  font-size: 22.4px;
+}
 
 
 /*Bouton rechercher*/
@@ -1289,6 +1305,8 @@ form
   display: block;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  position: relative;
+  right: 9%;
 }
 
 .rechercher_tablette i 
@@ -1302,7 +1320,7 @@ form
 
 #filtres
 {
-  font-size: 1.5em;
+  font-size: 20.196px;
 }
 
 .filtres
@@ -1356,8 +1374,8 @@ form
 {
   padding-left: 0px;
   padding-right: 15px;
-  padding-top: 12px;
-  padding-bottom: 17px;
+  padding-top: 7px;
+  padding-bottom: 14px;
   text-decoration: none;
   color: black;
   font-family: 'Montserrat';
@@ -1374,7 +1392,7 @@ form
 
 .info
 {
-  font-size: 1.5em;
+  font-size: 20.196px;
 }
 
 .information
@@ -1386,6 +1404,7 @@ form
 {
   height: 1.6em;
 }
+
 /*Hébergement Populaire*/
 
 #hebergementpopulaire
@@ -1411,10 +1430,15 @@ form
 
 #titrepopulaire
 {
-  font-size: 1.2em;
+
   margin-left: 4%;
   margin-right: 4%;
 
+}
+
+#titrepopulaire h2
+{
+  font-size: 26.4px;
 }
 
 #bullespopulaires
@@ -1456,6 +1480,15 @@ form
   margin-top: 114px;
 }
 
+.populairetexte h2
+{
+  font-size: 20.196px;
+}
+
+.populairetexte p 
+{
+  font-size: 17.952px;
+}
 
 /*Hébergements*/ 
 
@@ -1474,7 +1507,10 @@ form
 {
   padding: 0;
   margin-left: 4%;
+  font-size: 26.4px;
 }
+
+
 
 #hebergementbulle
 {
@@ -1515,12 +1551,20 @@ form
 .textebulle
 {
   padding-left: 2%;
+  height: 95px;
+  position: relative;
+}
+
+.hebergeicone
+{
+  position: absolute;
 }
 
 #afficher
 {
   padding: 0;
   margin-left: 3%;
+  font-size: 24.4px;
 }
 
 
@@ -1536,7 +1580,7 @@ form
 
 #activites h2
 {
-  font-size: 1.5em;
+  font-size: 26.4px;
   margin-left: 4%;
 
 }
@@ -1551,7 +1595,7 @@ form
 
 #activitebulle p 
 {
-  font-size: 23.76px;
+  font-size: 20.196px;
   padding-bottom: 25px;
   padding-top: 20px;
   margin-left: 2%;
@@ -1626,7 +1670,7 @@ header img
 .nav
 {
   margin-top: 60px;
-  font-size: 1.3em;
+  font-size: 17.6px;
 }
 
 .menu
@@ -1647,35 +1691,41 @@ header img
 
 #recherche h1
 {
-  font-size: 1.3em;
+  font-size: 17.6px;
 }
 
 #recherche h2
 {
-  font-size: 1em;
+  font-size: 14.08px;
 }
 
-
+form
+{
+}
 
 #search
 {
-  font-size: 1em;
-  width: 220px;
+  font-size: 0.9em;
+  width: 70%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 #icone
 {
   padding-top: 15px;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .rechercher_tablette
 {
   padding-top: 15px;
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding-bottom: 15px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  position: relative;
+  right: 9%;
 }
 
 
@@ -1684,16 +1734,29 @@ header img
 
 .filtres
 {
-  font-size: 0.7em;
+  font-size: 14.52px;
   width: 90%;
   height: 300px;
 }
 
 .liste
 {
-  padding-top: 11px;
-  padding-bottom: 14px;
-  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 11px;
+  padding-right: 8px;
+}
+
+.liste i 
+{
+  margin-right: 8px;
+  border-radius: 2.5em; 
+  line-height: 2.5em;
+  width: 2.5em;
+}
+
+.filters :nth-child(3)
+{
+  width: 100%;
 }
 
 
@@ -1703,7 +1766,8 @@ header img
 
 .infotexte
 {
-  font-size: 0.7em;
+  font-size: 13.2px;
+  padding-top: 10px;
 }
 
 .information
@@ -1729,17 +1793,19 @@ header img
 #titrepopulaire
 {
   margin-bottom: 53px;
-  font-size: 0.8em;
+  font-size: 17.424px;
 }
 
 .poputitre
 {
   padding-right: 30%;
+  font-size: 13.068px;
 }
 
 .poputitre2
 {
   padding-right: 0;
+  font-size: 13.068px
 }
 
 .bullepopulaire
@@ -1756,20 +1822,19 @@ header img
 
 .bullepopulaire h2
 {
-  font-size: 0.55em;
   margin-bottom: 3%;
 
 }
 
 .bullepopulaire p 
 {
-  font-size: 0.5em;
+  font-size: 12px;
   margin-bottom: 0%;
 }
 
 .bullepopulaire i 
 {
-  font-size: 0.5em;
+
 }
 
 .popuicone
@@ -1777,6 +1842,7 @@ header img
   margin-top: 0;
   position: absolute;
   bottom: 0px;
+  font-size: 16px;
 }
 
 .bullepopu
@@ -1816,7 +1882,7 @@ header img
 
 #hebergements h2
 {
-  font-size: 23.232px;
+  font-size: 17.424px;
 }
 
 
@@ -1838,12 +1904,12 @@ header img
   padding-left: 2%;
   margin-top: 0;
   margin-bottom: 0px;
-  font-size: 29.04px;
+
 }
 
 .hebergeicone
 {
-  font-size: 0.5115em;
+  font-size: 16px;
 }
 
 .bulletest img
@@ -1853,7 +1919,7 @@ header img
 
 #hebergements .textebulle h2
 {
-  font-size: 13.068px;
+  font-size: 13.464px;
 }
 
 #hebergements .textebulle p
@@ -1863,7 +1929,7 @@ header img
 
 #afficher 
 {
-  font-size: 0.75em;
+  font-size: 17.424px;
   margin-left: 5%;
   padding-left: 0;
 }
@@ -1876,13 +1942,13 @@ header img
 
 #activites
 {
-  margin-top: 1250px;
+  margin-top: 1050px;
 }
 
 #activites h2
 {
-  margin-top: 113px;
-  font-size: 23.232px;
+  margin-top: 50px;
+  font-size: 17.424px;
 }
 
 #activitebulle 
@@ -1940,5 +2006,15 @@ footer nav
 footer ul 
 {
   padding-left: 5%;
+}
+
+ul strong
+{
+  font-size: 15.12px;
+}
+
+footer ul li 
+{
+  font-size: 14.4px;
 }
 }
