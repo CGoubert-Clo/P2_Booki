@@ -1040,7 +1040,7 @@ border-top-right-radius: 25px;
   height: 164px;
   border-radius: 25px;
   padding-bottom: 3px;
-  box-shadow: 2px 2px 5px rgb(128, 128, 128, 0.4);
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.4);
   margin-top: 43px;
 }
 
@@ -1328,8 +1328,7 @@ form
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  height: 350px;
-  width: 90%;
+  width: 50%;
 }
 
 .filters 
@@ -1350,6 +1349,7 @@ form
 .filters:nth-child(5)
 {
   width: 90%;
+  margin-bottom: 30px;
 }
 
 .filtrer
@@ -1397,7 +1397,7 @@ form
 
 .information
 {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .info i 
@@ -1662,9 +1662,9 @@ footer nav
 header img
   {
 
-    margin-top: 60px;
-    margin-left: 35%;
-    width: 45%;
+    margin-top: 30px;
+    margin-left: 45%;
+    width: 25%;
   }
 
 .nav
@@ -1682,7 +1682,7 @@ header img
 
 .menu:nth-child(1)
 {
-  padding-left: 7.5%;
+  padding-left: 10%;
 }
 
 
@@ -1711,6 +1711,11 @@ form
   border-bottom-right-radius: 25px;
 }
 
+::placeholder
+{
+  font-size: 14.52px;
+}
+
 #icone
 {
   padding-top: 15px;
@@ -1735,8 +1740,7 @@ form
 .filtres
 {
   font-size: 14.52px;
-  width: 90%;
-  height: 300px;
+  width: 60%;
 }
 
 .liste
@@ -1759,6 +1763,10 @@ form
   width: 100%;
 }
 
+.filters:nth-child(5)
+{
+  margin-bottom: 30px;
+}
 
 /*Information*/
 
@@ -1772,7 +1780,7 @@ form
 
 .information
 {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .info .infobulle
@@ -1904,6 +1912,7 @@ form
   padding-left: 2%;
   margin-top: 0;
   margin-bottom: 0px;
+  height: 75px;
 
 }
 
