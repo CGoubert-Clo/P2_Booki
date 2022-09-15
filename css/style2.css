@@ -385,7 +385,7 @@ p, h1, h2, h3, h4, ul, input, label, a, span
 
 h1
 {
-  font-size: 22.88px;
+  font-size: 23px;
   font-weight: bolder;
   color: black;
 }
@@ -455,7 +455,7 @@ header img
 
 #recherche h2
 {
-  font-size: 15.84px;
+  font-size: 16px;
   color: black;
   font-weight: normal;
   margin-top: 0px;
@@ -490,7 +490,7 @@ form
 ::placeholder
 {
   color: black;
-  font-size: 17.6px;
+  font-size: 18px;
 }
 
 #icone
@@ -501,9 +501,9 @@ form
   text-align: center;
   vertical-align: center;
   font-weight: bolder;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
   font-size: 1.3em;
   background-color: #F2F2F2;
   border-top-left-radius: 20px;
@@ -556,12 +556,12 @@ form a:hover
 {
   color: #DEEBFF;
   font-size: 1em;
-  width: 3.12em;
+  width: 2.6em;
   text-align: center;
-  line-height: 3.12em;
+  line-height: 2.6em;
   background-color: #DEEBFF;
   color: #0065FC;
-  border-radius: 3.12em; 
+  border-radius: 2.6em; 
 }
 
 .liste 
@@ -575,8 +575,8 @@ form a:hover
   border-bottom-right-radius: 44px;
   padding-left: 0px;
   padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   text-decoration: none;
   color: black;
   font-family: 'Montserrat';
@@ -705,7 +705,7 @@ form a:hover
 #hebergements h2
 {
     color: black;    
-    font-size: 19.36px;
+    font-size: 19px;
     padding-left: 15px;
     margin-bottom: 26px;
     margin-top: 40px;
@@ -781,7 +781,7 @@ form a:hover
 {
   padding-left: 4%;
   position: absolute;
-  bottom: 1%;
+  bottom: 15%;
 }
 
 .gris 
@@ -800,12 +800,12 @@ form a:hover
 
 #hebergements .textebulle h2
 {
-    font-size: 13.464px;
+    font-size: 13px;
 }
 
 #hebergements .textebulle p
 {
-    font-size: 11.968px;
+    font-size: 11px;
 }
 
 #hebergements #afficher 
@@ -849,7 +849,7 @@ form a:hover
 #titrepopulaire h2
 {
     color: black;
-    font-size: 19.36px;
+    font-size: 19px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -871,14 +871,14 @@ form a:hover
   border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     width: 37%;
-    height: 145px;
+    height: 135px;
 }
 
 .populairetexte
 {
     position: relative;
     padding-left: 2%;
-    height: 145px;
+    height: 135px;
     width: 60%;
 
 }
@@ -887,14 +887,14 @@ form a:hover
 {
     color: black;
     margin: 5px;
-    font-size: 11.968px;
+    font-size: 11px;
 }
 
 .populairetexte h2
 {
     color: black;
     margin: 5px;
-    font-size: 13.464px;
+    font-size: 13px;
 }
 
 .populairetexte i
@@ -918,7 +918,7 @@ form a:hover
 
 .poputitre
 {
-  padding-right: 20%;
+  padding-right: 37%;
 }
 
 .poputitre2
@@ -932,7 +932,7 @@ form a:hover
   margin-top: 18%;
   position: absolute;
   font-size: 0.85em;
-  bottom: 2%;
+  bottom: 4%;
 }
 
 
@@ -990,7 +990,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 14.08px;
+  font-size: 14px;
 }
 
 
@@ -1028,7 +1028,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 14.08px;
+  font-size: 14px;
 }
 
 
@@ -1058,7 +1058,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 14.08px;
+  font-size: 14px;
 }
 
 /*Bulle4*/
@@ -1093,7 +1093,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 14.08px;
+  font-size: 14px;
 }
 
 
@@ -1123,7 +1123,7 @@ border-top-right-radius: 25px;
   padding-left: 15px;
   color: black;
   font-weight: bold;
-  font-size: 14.08px;
+  font-size: 14px;
 }
 
 
@@ -1155,7 +1155,7 @@ footer li
 
 footer li strong
 {
-  font-size: 16.8px;
+  font-size: 17px;
   margin-bottom: 25px;
 }
 
@@ -1204,7 +1204,7 @@ header img
 
 .nav
 {
-  font-size: 26.4px;
+  font-size: 26px;
 }
 
 .nav>*
@@ -1245,19 +1245,19 @@ header img
 {
     margin-top: 50px;
     margin-left: 4%;
+    margin-right: 0%;
 }
 
 /*Recherche*/
 
 h1
 {
-  margin-right: 8%;
-  font-size: 26.4px;
+  font-size: 26px;
 }
 
 #recherche h2
 {
-  font-size: 24.4px;
+  font-size: 24px;
 }
 
 
@@ -1281,15 +1281,15 @@ form
 
 #search
 {
-  font-size: 28.16px;
-  width: 95%;
+  font-size: 28px;
+  width: 100%;
   border-top-right-radius: 35px;
   border-bottom-right-radius: 35px;
 }
 
 ::placeholder
 {
-  font-size: 22.4px;
+  font-size: 22px;
 }
 
 
@@ -1306,7 +1306,7 @@ form
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   position: relative;
-  right: 9%;
+  right: 5%;
 }
 
 .rechercher_tablette i 
@@ -1320,7 +1320,7 @@ form
 
 #filtres
 {
-  font-size: 20.196px;
+  font-size: 20px;
 }
 
 .filtres
@@ -1344,6 +1344,11 @@ form
 .filters:nth-child(3)
 {
   margin-right: 30px;
+}
+
+.filters:nth-child(4)
+{
+  width: 100%;
 }
 
 .filters:nth-child(5)
@@ -1392,7 +1397,7 @@ form
 
 .info
 {
-  font-size: 20.196px;
+  font-size: 20px;
 }
 
 .information
@@ -1438,7 +1443,7 @@ form
 
 #titrepopulaire h2
 {
-  font-size: 26.4px;
+  font-size: 26px;
 }
 
 #bullespopulaires
@@ -1461,7 +1466,7 @@ form
   padding-left: 2%;
   height: 250px;
   width: 50%;
-  font-size: 23.76px;
+  font-size: 24px;
 }
 
 .poputitre
@@ -1482,12 +1487,12 @@ form
 
 .populairetexte h2
 {
-  font-size: 20.196px;
+  font-size: 20px;
 }
 
 .populairetexte p 
 {
-  font-size: 17.952px;
+  font-size: 18px;
 }
 
 /*Hébergements*/ 
@@ -1507,7 +1512,7 @@ form
 {
   padding: 0;
   margin-left: 4%;
-  font-size: 26.4px;
+  font-size: 26px;
 }
 
 
@@ -1564,7 +1569,7 @@ form
 {
   padding: 0;
   margin-left: 3%;
-  font-size: 24.4px;
+  font-size: 24px;
 }
 
 
@@ -1580,7 +1585,7 @@ form
 
 #activites h2
 {
-  font-size: 26.4px;
+  font-size: 26px;
   margin-left: 4%;
 
 }
@@ -1595,7 +1600,7 @@ form
 
 #activitebulle p 
 {
-  font-size: 20.196px;
+  font-size: 20px;
   padding-bottom: 25px;
   padding-top: 20px;
   margin-left: 2%;
@@ -1670,7 +1675,7 @@ header img
 .nav
 {
   margin-top: 60px;
-  font-size: 17.6px;
+  font-size: 18px;
 }
 
 .menu
@@ -1678,6 +1683,13 @@ header img
   padding-left: 4.5%;
   padding-right: 5.5%;
   padding-top: 0;
+  border-bottom: 4px solid #F2F2F2;
+  border-top: 0;
+}
+
+.menu:hover
+{
+  border-bottom: 4px solid #0065FC;
 }
 
 .menu:nth-child(1)
@@ -1691,29 +1703,31 @@ header img
 
 #recherche h1
 {
-  font-size: 17.6px;
+  font-size: 18px;
 }
 
 #recherche h2
 {
-  font-size: 14.08px;
+  font-size: 14px;
 }
 
 form
 {
+  margin-left: 2%;
+  width: 100%;
 }
 
 #search
 {
   font-size: 0.9em;
-  width: 70%;
+  width: 100%;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
 
 ::placeholder
 {
-  font-size: 14.52px;
+  font-size: 14px;
 }
 
 #icone
@@ -1727,8 +1741,7 @@ form
   padding-top: 15px;
   font-size: 0.6em;
   padding-bottom: 15px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-radius: 15px;
   position: relative;
   right: 9%;
 }
@@ -1736,11 +1749,17 @@ form
 
 /*Filtres*/
 
+#filtres
+{
+  margin-top: 0;
+  width: 60%;
+}
 
 .filtres
 {
-  font-size: 14.52px;
-  width: 60%;
+  font-size: 14px;
+  width: 100%;
+
 }
 
 .liste
@@ -1774,7 +1793,7 @@ form
 
 .infotexte
 {
-  font-size: 13.2px;
+  font-size: 13px;
   padding-top: 10px;
 }
 
@@ -1801,21 +1820,23 @@ form
 #titrepopulaire
 {
   margin-bottom: 53px;
-  font-size: 17.424px;
+  font-size: 17px;
 }
 
 .poputitre
 {
   padding-right: 30%;
-  font-size: 13.068px;
 }
 
 .poputitre2
 {
   padding-right: 0;
-  font-size: 13.068px
 }
 
+.populairetexte h2
+{
+  font-size: 13px;
+}
 .bullepopulaire
 {
   padding-right: 1%;
@@ -1849,7 +1870,6 @@ form
 {
   margin-top: 0;
   position: absolute;
-  bottom: 0px;
   font-size: 16px;
 }
 
@@ -1890,7 +1910,7 @@ form
 
 #hebergements h2
 {
-  font-size: 17.424px;
+  font-size: 17px;
 }
 
 
@@ -1928,17 +1948,17 @@ form
 
 #hebergements .textebulle h2
 {
-  font-size: 13.464px;
+  font-size: 13px;
 }
 
 #hebergements .textebulle p
 {
-  font-size: 11.88px;
+  font-size: 12px;
 }
 
 #afficher 
 {
-  font-size: 17.424px;
+  font-size: 17px;
   margin-left: 5%;
   padding-left: 0;
 }
@@ -1957,7 +1977,7 @@ form
 #activites h2
 {
   margin-top: 50px;
-  font-size: 17.424px;
+  font-size: 17px;
 }
 
 #activitebulle 
@@ -1967,7 +1987,7 @@ form
 
 #activitebulle p 
 {
-  font-size: 13.068px;
+  font-size: 13px;
   padding-bottom: 15px;
   padding-top: 15px;
   padding-right: 2%;
@@ -2019,11 +2039,11 @@ footer ul
 
 ul strong
 {
-  font-size: 15.12px;
+  font-size: 15px;
 }
 
 footer ul li 
 {
-  font-size: 14.4px;
+  font-size: 14px;
 }
 }
