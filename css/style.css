@@ -532,10 +532,6 @@ form a:hover
   color: black;
 }
 
-.rechercher_tablette 
-{
-  display: none;
-}
 
 /*Filtres*/
 
@@ -684,7 +680,7 @@ form a:hover
 
 #hebergements
 {
-    width: 60%;
+    width: 65%;
     background-color: #F2F2F2;
     border-radius: 16px;
     padding-left: 16px;
@@ -825,7 +821,7 @@ form a:hover
 
 #populaires
 {
-    width: 30%;
+    width: 26%;
     height: 625px;
     background-color: #F2F2F2;
     border-radius: 26px;
@@ -843,7 +839,7 @@ form a:hover
     margin-bottom: 26px;
     margin-top: 40px;
     margin-left: 1%;
-    margin-right: 4%;
+    margin-right: 0%;
 }
 
 #titrepopulaire h2
@@ -1139,6 +1135,7 @@ footer nav
 {
   display: flex;
   margin-left: 50px;
+  padding-bottom: 100px;
 }
 
 footer ul
@@ -1295,11 +1292,10 @@ form
 
 /*Bouton rechercher*/
 
-.rechercher 
+.fa-search:before 
 {
-  display: none;
+  
 }
-
 .rechercher_tablette
 {
   display: block;
@@ -1307,6 +1303,7 @@ form
   border-bottom-left-radius: 20px;
   position: relative;
   right: 5%;
+  padding: 15px;
 }
 
 .rechercher_tablette i 
@@ -1403,6 +1400,8 @@ form
 .information
 {
   padding-top: 0px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .info i 
@@ -1436,8 +1435,9 @@ form
 #titrepopulaire
 {
 
-  margin-left: 4%;
-  margin-right: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-left: 0;
 
 }
 
@@ -1463,9 +1463,9 @@ form
 
 .populairetexte
 {
-  padding-left: 2%;
+  padding-left: 4%;
   height: 250px;
-  width: 50%;
+  width: 45%;
   font-size: 24px;
 }
 
@@ -1527,7 +1527,7 @@ form
 
 #hebergementbulle>*
 {
-  border-radius: 35px;
+  border-radius: 25px;
 }
 
 
@@ -1543,8 +1543,8 @@ form
   padding: 0;
   padding-left: 1%;
   padding-top: 1%;
-  border-top-left-radius: 35px;
-  border-top-right-radius: 35px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 #hebergements .textebulle h2,#hebergements .textebulle p, .hebergeicone
@@ -1555,9 +1555,19 @@ form
 
 .textebulle
 {
-  padding-left: 2%;
+  padding-left: 3%;
   height: 95px;
   position: relative;
+}
+
+#hebergements .textebulle h2
+{
+  font-size: 20px;
+}
+
+#hebergements .textebulle p
+{
+  font-size: 18px;
 }
 
 .hebergeicone
@@ -1644,11 +1654,29 @@ form
 
 footer nav
 {
+  padding-bottom: 100px;
+}
+
+footer nav
+{
   flex-direction: column;
   font-size: 1.5em;
 }
 
+footer li strong
+{
+  font-size: 20px;
+}
 
+footer li 
+{
+  font-size: 18px;
+}
+
+footer li a 
+{
+  color: black;
+}
 
 
 
@@ -1752,7 +1780,7 @@ form
 #filtres
 {
   margin-top: 0;
-  width: 60%;
+  width: 90%;
 }
 
 .filtres
@@ -1765,16 +1793,16 @@ form
 .liste
 {
   padding-top: 8px;
-  padding-bottom: 11px;
+  padding-bottom: 12.5px;
   padding-right: 8px;
 }
 
 .liste i 
 {
   margin-right: 8px;
-  border-radius: 2.5em; 
-  line-height: 2.5em;
-  width: 2.5em;
+  border-radius: 2.65em; 
+  line-height: 2.65em;
+  width: 2.65em;
 }
 
 .filters :nth-child(3)
@@ -1794,12 +1822,16 @@ form
 .infotexte
 {
   font-size: 13px;
-  padding-top: 10px;
+  padding-top: 5px;
+  height: 40px;
+  width: 275px;
+  padding-right: 10%;
 }
 
 .information
 {
   padding-top: 0px;
+  margin-top: 30px;
 }
 
 .info .infobulle
@@ -1808,11 +1840,13 @@ form
 }
 
 
+
+
 /*Hébergement / Populaire*/
 
 #hebergementpopulaire
 {
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 /*Populaires*/
@@ -1820,6 +1854,11 @@ form
 #titrepopulaire
 {
   margin-bottom: 53px;
+  font-size: 17px;
+}
+
+#titrepopulaire h2
+{
   font-size: 17px;
 }
 
@@ -1845,7 +1884,7 @@ form
 .populairetexte
 {
   height: 135px;
-  padding-left: 1%;
+  padding-left: 4%;
   position: relative;
 }
 
@@ -1861,9 +1900,9 @@ form
   margin-bottom: 0%;
 }
 
-.bullepopulaire i 
+.bullepopulaire  
 {
-
+  padding-right: 0;
 }
 
 .popuicone
@@ -1900,7 +1939,7 @@ form
 
 #hebergementbulle>*
 {
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 #hebergements a 
@@ -1917,7 +1956,7 @@ form
 .bulletest
 {
   height: auto;
-  border-radius: 45px;
+  border-radius: 25px;
 }
 
 .hebergecrop
@@ -1929,7 +1968,7 @@ form
 {
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 2%;
+  padding-left: 5%;
   margin-top: 0;
   margin-bottom: 0px;
   height: 75px;
@@ -2037,13 +2076,23 @@ footer ul
   padding-left: 5%;
 }
 
-ul strong
+footer ul strong
 {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 footer ul li 
 {
   font-size: 14px;
 }
+
+
+
+/*
+
+search:before {
+    content: "Rechercher";
+    font-family: 'MONTSERRAT';
 }
+
+*/
