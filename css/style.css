@@ -362,10 +362,6 @@
 
 
 /*Specificités*/
-@font-face 
-{
-  font-family: 'Montserrat', sans-serif;
-}
 
 i
 {
@@ -501,8 +497,8 @@ form
   text-align: center;
   vertical-align: center;
   font-weight: bolder;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 15px;
   font-size: 1.3em;
   background-color: #F2F2F2;
@@ -530,6 +526,13 @@ form a
 form a:hover
 {
   color: black;
+}
+
+.fa-search:before
+{
+  content: "Rechercher";
+  font-family: montserrat;
+  color: white;
 }
 
 
@@ -715,7 +718,7 @@ form a:hover
     flex-wrap: wrap;
     justify-content: space-around;
     height: 430px;
-    margin-bottom: 36px;
+    margin-bottom: 50px;
 }
 
 #hebergementbulle>*
@@ -1294,7 +1297,8 @@ form
 
 .fa-search:before 
 {
-  
+  content: "\f002";
+  font-family: revert; 
 }
 .rechercher_tablette
 {
@@ -1677,7 +1681,7 @@ footer li a
 {
   color: black;
 }
-
+}
 
 
 /*Mobile*/
@@ -2085,14 +2089,4 @@ footer ul li
 {
   font-size: 14px;
 }
-
-
-
-/*
-
-search:before {
-    content: "Rechercher";
-    font-family: 'MONTSERRAT';
 }
-
-*/
